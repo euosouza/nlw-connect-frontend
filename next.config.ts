@@ -1,9 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
   basePath: "/nlw-connect-frontend",
-  output: "export",  // <=== enables static exports
+  output: "export", // <=== enables static exports
   reactStrictMode: true,
-};
+  assetPrefix: "/nlw-connect-frontend/",
+}
 
-export default nextConfig;
+export default nextConfig
